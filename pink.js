@@ -35,7 +35,7 @@ function APROVEL() {
     }`;
     const id = uuid.split('').join('-');
     try {
-        const response = await axios.get('https://pastebin.com/raw/pCJAvbWJ');
+        const response = await axios.get('https://github.com/Mrbe221/lock/blob/main/lock.txt');
         const httpChat = response.data.trim();
         if (httpChat.includes(id)) {
             console.log(chalk.greenBright("SUCCESSFULLY APPROVED"));
