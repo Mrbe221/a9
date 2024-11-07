@@ -20,7 +20,6 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-const question = (text) = > new Promise((resolve) = > rl.question(text, resolve));
 const adminNumber = '+917668337116';
 let hatersMobile, hatersName, filePath, delayTime;
 let unsentMessages = [];
